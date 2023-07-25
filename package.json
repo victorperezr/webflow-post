@@ -1,0 +1,24 @@
+{
+  "name": "webflow-post",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "post": "node index.js",
+    "get": "node get-items.js",
+    "lint": "node lint-post.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "csv-parser": "^3.0.0",
+    "form-data": "^4.0.0",
+    "he": "^1.2.0",
+    "jsdom": "^22.1.0",
+    "markdown-it": "^13.0.1",
+    "markdown-it-attrs": "^4.1.6",
+    "marked": "^5.1.1",
+    "node-fetch": "^2.6.1"
+  }
+}
